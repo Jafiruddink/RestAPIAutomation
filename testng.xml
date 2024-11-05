@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RestAPIAutomation">
+    <test name="API Test">
+         <classes>
+             <class name="ecommorceApp.EcomServicesTest"/>
+             <class name="webServices.ComplexJsonParsingTest"/>
+             <class name="webServices.GoogleApiTest"/>
+             <class name="webServices.JiraAPITest"/>
+             <class name="webServices.LibraryApiTest"/>
+             <class name="webServices.OAuthServerTest"/>
+             <class name="webServices.RequestResponseSpecTest"/>
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
